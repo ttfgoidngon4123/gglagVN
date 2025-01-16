@@ -1,0 +1,1115 @@
+<!DOCTYPE html>
+<html lang="vi-VN">
+
+<head>
+    <title>
+        Câu lạc bộ The Reed Chess
+    </title>
+    <!-- #region Các thẻ meta và link -->
+    <meta name="keywords" content="">
+    <meta name="description" content="
+Câu lạc bộ Olympia Chess">
+    <link rel="canonical" href="https://olympiachess.vn/">
+    <meta property="og:title" content=" Câu lạc bộ Olympia Chess">
+    <meta property="og:site_name" content="http://olympiachess.vn/">
+    <meta property="og:url" content="http://olympiachess.vn/">
+    <meta property="og:description" content="
+Câu lạc bộ Olympia Chess">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="../iweb.tatthanh.com.vn/pic/2141/setting/OLYMPIA-CHESS_LOGO-nho-web.png">
+    <meta property="og:image:alt" content=" Câu lạc bộ Olympia Chess">
+    <!-- #endregion -->
+
+    <!-- #region Các thẻ meta tĩnh -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="robots" content="noodp,index,follow">
+    <meta name="theme-color" content="#64A243">
+    <!-- #endregion -->
+
+    <!-- #region Facebook app id chung cho web -->
+    <meta property="fb:app_id" content="">
+    <meta property="fb:admins" content="">
+    <!-- #endregion -->
+
+
+    <link rel="preload" crossorigin="anonymous" href="/Themes/Theme01/Assets/fonts/fontawesome-webfont.woff2?v=4.7.0"
+        as="font" type="font/woff2">
+    <link href="Themes/Theme01/Assets/Css/__main.min.20210402.css" rel="stylesheet">
+    <link href="../iweb.tatthanh.com.vn/themes/admin/assets/css/font-face.min.css" rel="stylesheet">
+
+    <!-- #region Phần css tùy chỉnh-->
+    <style>
+        .main-color-1 {
+            color: #64A243;
+        }
+
+        .bg-main-color-1 {
+            background-color: #64A243;
+        }
+
+        .bg-main-color-1 .bg-inherit {
+            background-color: #64A243;
+        }
+
+        .bg-main-color-1-fade {
+            background-color: rgba(100, 162, 67, 0.1)
+        }
+
+        .bd-main-color-1 {
+            border-color: #64A243;
+        }
+
+        .main-color-1-active .active,
+        .main-color-1-active .slick-current {
+            color: #64A243;
+        }
+
+        .main-color-2 {
+            color: #305D45;
+        }
+
+        .bg-main-color-2 {
+            background-color: #305D45;
+        }
+
+        .bg-main-color-2 .bg-inherit {
+            background-color: #305D45;
+        }
+
+        .bg-main-color-2-fade {
+            background-color: rgba(48, 93, 69, 0.1)
+        }
+
+        .bd-main-color-2 {
+            border-color: #305D45;
+        }
+
+        .slick-slider .slick-slide img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+        .slick-slider-btn-main-color-2 .slick-arrow {
+            background-color: #305D45;
+            border-color: #305D45;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .main-color-2-active .active,
+        .main-color-2-active .slick-current {
+            color: #305D45;
+        }
+
+        .category[data-blocklayouts*='_itemborderimg_'][data-blocklayouts*='_itembordercolor1_'] .imgc,
+        .category[data-blocklayouts*='_itemborderimg_'][data-blocklayouts*='_itembordercolor1_'] .imgc0,
+        .category[data-blocklayouts*='_itemborder_'][data-blocklayouts*='_itembordercolor1_'] .item,
+        .category[data-blocklayouts*='_bordercolor1_'] {
+            border-color: rgba(100, 162, 67, 0.2) !important;
+        }
+
+        .category[data-blocklayouts*='_itemborderimg_'][data-blocklayouts*='_itembordercolor2_'] .imgc,
+        .category[data-blocklayouts*='_itemborderimg_'][data-blocklayouts*='_itembordercolor2_'] .imgc0,
+        .category[data-blocklayouts*='_itemborder_'][data-blocklayouts*='_itembordercolor2_'] .item,
+        .category[data-blocklayouts*='_bordercolor2_'] {
+            border-color: rgba(48, 93, 69, 0.2) !important;
+        }
+
+        .text-color {
+            color: #333333;
+        }
+
+        .text-color-fade {
+            color: #999999;
+        }
+
+        body {
+            color: #333333;
+            font-size: px
+        }
+
+        a:hover,
+        .category[data-blocklayouts*='_itemlightbg_'] .item-title:hover,
+        .category-title-wrap.bg-main-color-1 a:hover,
+        .category-title-wrap.bg-main-color-2 a:hover,
+        .category[data-blocklayouts*='_6_'] .col-12>.item .item-title:hover {
+            color: #305D45
+        }
+
+        a.active {
+            color: #305D45
+        }
+
+        .active>a {
+            color: #305D45
+        }
+
+        .active>i.fa {
+            color: #305D45
+        }
+
+        .tabs-underline .active:after {
+            background-color: #305D45
+        }
+
+        .tabs-underline .tab:hover:after {
+            background-color: #305D45
+        }
+
+        .tabs-underline-color-1 .active:after {
+            background-color: #999999
+        }
+
+        .tabs-underline-color-1 .tab:hover:after {
+            background-color: #999999
+        }
+
+        .tabs-underline-color-1 a:hover {
+            color: #999999
+        }
+
+        .tabs-underline-color-1 a.active {
+            color: #999999
+        }
+
+        .tabs-underline-color-1 .active>a {
+            color: #999999
+        }
+
+        .tabs-underline-color-1 .active>i.fa {
+            color: #999999
+        }
+
+        /*#region Chỉnh màu hover của table */
+        .table-hover tbody tr:hover {
+            background-color: rgba(100, 162, 67, 0.1)
+        }
+
+        /*#endregion */
+
+        /*#region Chỉnh màu các nút, viết cùng ở file color.scss để tiện thay thế, điều chỉnh */
+        .btn-primary {
+            background-color: #305D45;
+        }
+
+        .btn-outline-primary {
+            color: #305D45;
+            border-color: #305D45;
+        }
+
+        .btn-primary-1 {
+            background-color: #64A243;
+        }
+
+        .btn-outline-primary-1 {
+            color: #64A243;
+            border-color: #64A243;
+        }
+
+        .btn-primary:hover,
+        .btn-primary:active,
+        .btn-primary.disabled,
+        .btn-outline-primary:hover,
+        .btn-outline-primary:active,
+        .btn-outline-primary.disabled {
+            background-color: rgba(48, 93, 69, 0.9) !important;
+        }
+
+        .btn-primary:focus,
+        .btn-outline-primary:focus {
+            box-shadow: 0 0 0 0.2rem rgba(48, 93, 69, 0.5) !important;
+        }
+
+        .btn-primary-1:hover,
+        .btn-primary-1:active,
+        .btn-primary-1.disabled,
+        .btn-outline-primary-1:hover,
+        .btn-outline-primary-1:active,
+        .btn-outline-primary-1.disabled {
+            background-color: rgba(100, 162, 67, 0.9) !important;
+        }
+
+        .btn-primary-1:focus,
+        .btn-outline-primary-1:focus {
+            box-shadow: 0 0 0 0.2rem rgba(100, 162, 67, 0.5) !important;
+        }
+
+        /*#endregion */
+        /*Hạn chế chiều rộng trang trên màn fullhd*/
+        @media (min-width: 1600px) {
+            .container.container-large {
+                max-width: 1230px;
+            }
+        }
+
+        /*End - Hạn chế chiều rộng trang trên màn fullhd*/
+        body {
+            background-image: none;
+        }
+
+        .category[data-blocklayouts*='_itemcolor1bg_'] .item {
+            background-color: #64A243;
+        }
+
+        .category[data-blocklayouts*='_itemcolor2bg_'] .item {
+            background-color: #305D45;
+        }
+    </style>
+    <!-- #endregion -->
+
+    <!-- #region Các mã có thể nhúng vào thẻ head như Google Analytics, Facebook,... -->
+    <meta name="google-site-verification" content="DPCQK-AMAKysZz27OHlASh9w3b9ZjOOEtKvx_uIeP5g">
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-S821RF85CC"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-S821RF85CC');
+    </script>
+    <meta name="google-site-verification" content="6zZXgPDm9Zp3PTnlTL318ZvYHvSZb9sYh0-waOobbbk">
+    <style>
+        /*#region Các phần ẩn đi*/
+        #popup-login-register .popup-content,
+        .menu-login,
+        .menu-shopping-cart,
+        .category-filters-view,
+        .spihp select.form-control:not([size]):not([multiple]) {
+            display: none !important
+        }
+
+        .spihp .input-wrap {
+            max-width: 100%;
+            margin-right: 0
+        }
+
+        /*#endregion*/
+
+        @media(min-width:991px) {
+            .category-title {
+                font-size: 26px
+            }
+
+            .right-col .category-title {
+                font-size: 20px;
+            }
+        }
+
+        .category-title,
+        .item-title {
+            font-family: Merriweather
+        }
+
+        .category[data-tabs*='_linedecoration_'] .category-line-decoration {
+            max-width: 200px
+        }
+
+        .category[data-tabs*='_linedecoration_'][data-tabs*='_linedecorationsizecenter_'] .category-line-decoration .c {
+            width: 10px;
+            height: 10px;
+        }
+
+        .category[data-tabs*='_linedecoration_'] .category-line-decoration [class^='c'] {
+            width: 6px;
+            height: 6px;
+            margin: 2px;
+        }
+
+        .category[data-tabs*='_linedecoration_'] .category-line-decoration .cl1 {
+            margin-left: 4px;
+        }
+
+        .category[data-tabs*='_linedecoration_'] .category-line-decoration .cr1 {
+            margin-right: 4px;
+        }
+
+        .category-desc {
+            max-width: 850px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* #region Chỉnh chiều cao tiêu đề*/
+        .category[data-blocklayouts*='_1_'] .item-title,
+        .category[data-blocklayouts*='_13_'] .item-title {
+            display: inline-block;
+            height: auto
+        }
+
+        /* #endregion*/
+
+        /*#region Header cũ
+.main-slider .container {max-width:9999px; padding:0;}
+.slidershape-default .main-slider .slick-arrow.slick-prev{left:15px;}
+.slidershape-default .main-slider .slick-arrow.slick-next{right:15px;}
+.main-slider .imgc:before{padding-bottom:35%}
+
+@media(min-width:1200px){
+.header-core{position:fixed;z-index:3;top:0;left:0;right:0}
+.main-slider{margin-top:40px;position:relative;z-index:1}
+.main-slider:after{content:"";display:block;height:168px;position:absolute;z-index:1;top:0;left:0;right:0;pointer-events:none;background: -moz-linear-gradient(top,  rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 100%); background: -webkit-linear-gradient(top,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0) 100%); background: linear-gradient(to bottom,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0) 100%);}
+
+.header-full .menu-main>li>a{font-family:Merriweather; color:#fff !important; font-weight:bold}
+.menu-main>li:hover>a, .menu-main-o>li:hover>a{color:rgba(255,255,255,0.8) !important}
+
+.header-fixed-xl .header-full .logo img{max-height:32px}
+.header-fixed-xl .logo-menu-wrap{display:none}
+
+.menu-top-wrap,
+.menu-top-wrap *{color:#fff}
+
+.header-full .logo-wrap{padding-top:25px; padding-bottom:25px;flex:0 0 auto;width:auto}
+.header-full .logo-1{justify-content: flex-start;}
+}
+
+.header-full .menu-top .menu-text{margin-left:15px; margin-right:15px}
+.header-full .menu-top .menu-social{background:rgba(255,255,255,0.2) !important;width:24px;height:24px;line-height:24px}
+
+.menu-top-right a[href*='tel']{color:#fff;background:#C90302;padding:4px 10px 4px 33px; font-weight:bold;position:relative;z-index:1;border-radius:999px}
+.menu-top-right a[href*='tel'] i.fa{background:#fff;color:#C90302;width:24px;height:24px;line-height:24px;text-align:center;border-radius:50%;position:absolute;z-index:1;top:2px;left:2px}
+
+.menu-top-right a[href*='/#gui-yeu-cau']{color:#fff;background:#3F835E;padding:4px 10px; border-radius:999px;margin-left:2px;margin-right:2px;}
+
+@media(max-width:1199px) {
+.menu-top-left{border-bottom:solid 1px #e4e4e4}
+.break-menu-top[data-index='1']{border-bottom:solid 1px #e4e4e4; padding-top:15px;margin-bottom:15px}
+
+.header-full .menu-top .menu-social{background:#3F835E !important;color:#fff !important}
+.header-full .menu-top .menu-social *{color:#fff !important}
+
+.menu-top-right a[href*='tel'],
+.menu-top-right a[href*='/#gui-yeu-cau']{margin-top:5px;margin-bottom:5px;}
+
+.menu-top-right a[href*='tel'],
+.menu-top-right a[href*='/#gui-yeu-cau'],
+.menu-top-right a[href*='tel'] *,
+.menu-top-right a[href*='/#gui-yeu-cau'] *{color:#fff !important}
+.menu-top-right a[href*='tel'] i.fa{color:#C90302 !important}
+}
+*/
+
+        /*#region Header*/
+        .header .logo-2 {
+            display: none !important
+        }
+
+        .header-full[data-block-type^='header_basic'] .logo-beside-btn {
+            font-weight: normal;
+            font-size: 15px;
+            padding-top: 4px;
+            padding-bottom: 4px;
+            padding-left: 30px;
+        }
+
+        .header-full[data-block-type^='header_basic'] .logo-beside-btn i.fa {
+            width: 24px;
+            height: 24px;
+            font-size: 15px;
+            line-height: 25px;
+        }
+
+        .header-full[data-block-type^='header_basic'] .logo-beside-btn[href*='tel'] {
+            background-color: #F40000
+        }
+
+        .header-full[data-block-type^='header_basic'] .logo-beside-btn[href*='tel'] i.fa {
+            color: #F40000
+        }
+
+        .header-full[data-block-type^='header_basic'] .logo-beside-btns {
+            padding-top: 0
+        }
+
+        .header-full[data-block-type^='header_basic'] .logo-beside-btns .menu-social {
+            width: 30px;
+            height: 30px;
+            display: inline-block;
+            color: #3b5998 !important;
+            border: solid 1px #3b5998;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 30px;
+            margin-right: 5px
+        }
+
+        .header-full[data-block-type^='header_basic'] .logo-beside-btns .menu-social * {
+            color: inherit !important
+        }
+
+        .header-full[data-block-type^='header_basic'] .logo-beside-btns .menu-social:hover {
+            background: #3b5998 !important;
+            color: #fff !important
+        }
+
+        .header-full[data-block-type^='header_basic'] .logo-beside-btns .menu-social[title='Youtube'] {
+            color: #f1451f !important;
+            border-color: #f1451f !important
+        }
+
+        .header-full[data-block-type^='header_basic'] .logo-beside-btns .menu-social[title='Youtube']:hover {
+            background: #f1451f !important;
+            color: #fff !important
+        }
+
+        .menu-lang {
+            margin-left: 3px
+        }
+
+        .spihp .input-wrap {
+            max-width: 100%;
+            margin-right: 0
+        }
+
+        @media (min-width: 1200px) {
+            .header-fixed-xl .header-core-space {
+                height: 109px
+            }
+
+            .header-fixed-xl .header-core {
+                position: fixed;
+                z-index: 3;
+                top: 0;
+                left: 0;
+                right: 0
+            }
+
+            .header-fixed-xl .header-core .menu-top-wrap,
+            .header-fixed-xl .header-core .logo-wrap {
+                display: none
+            }
+
+            .header-full[data-block-type^='header_basic'] .menu-top-wrap .container .menu-top {
+                top: 5px;
+            }
+
+            .header-full[data-block-type^='header_basic'] .logo-wrap {
+                padding-top: 5px;
+                padding-bottom: 5px;
+            }
+
+            .header-full .logo img {
+                max-height: 55px;
+            }
+
+            .header-full .menu-main>li>a {
+                padding-left: 20px;
+                padding-right: 19px;
+                text-transform: uppercase
+            }
+
+            .menu-main>li>a:after {
+                top: 0;
+                bottom: 0;
+                border-left: solid 1px rgba(0, 0, 0, .05);
+                border-right: solid 1px rgba(255, 255, 255, .05);
+            }
+
+            .menu-main>li.active>a {
+                background-color: rgba(255, 255, 255, 0.2);
+                color: #fff
+            }
+
+            .menu-main>li.active>a:after {
+                display: none
+            }
+        }
+
+        .main-slider .container {
+            max-width: 9999px;
+            padding: 0;
+        }
+
+        .slidershape-default .main-slider .slick-arrow.slick-prev {
+            left: 15px;
+        }
+
+        .slidershape-default .main-slider .slick-arrow.slick-next {
+            right: 15px;
+        }
+
+        .main-slider .imgc:before {
+            padding-bottom: 30.526%
+        }
+
+        @media (max-width: 1199px) {
+            .header-full[data-block-type^='header_basic'] .logo-beside-btn i.fa.main-color-1 {
+                color: #83A25C !important
+            }
+        }
+
+        @media (max-width: 767px) {
+            .header-full[data-block-type^='header_basic'] .logo-beside-btn {
+                margin-bottom: 10px
+            }
+        }
+
+        /*#endregion*/
+
+        /*#region Footer*/
+        .menu-footer-2 {
+            border-top: solid 1px rgba(255, 255, 255, 0.1)
+        }
+
+        .menu-footer-1 {
+            border-top: solid 1px rgba(255, 255, 255, 0.1)
+        }
+
+        @media (min-width: 992px) {
+            .menu-footer-1 .col-lg-3 {
+                flex: 0 0 20%;
+                max-width: 20%;
+            }
+
+            .menu-footer-1 .col-lg-3:nth-child(1),
+            .menu-footer-1 .col-lg-3:nth-child(4) {
+                flex: 0 0 30%;
+                max-width: 30%;
+            }
+        }
+
+        /* #endregion */
+
+        /*#region Giới thiệu tại trang chủ*/
+        #homepageblock_mfVbpBMy em {
+            font-style: normal
+        }
+
+        @media(max-width:1199px) {
+            #homepageblock_mfVbpBMy td:nth-child(2) {
+                width: 40%
+            }
+        }
+
+        @media(max-width:991px) {
+
+            #homepageblock_mfVbpBMy table,
+            #homepageblock_mfVbpBMy tbody,
+            #homepageblock_mfVbpBMy tr,
+            #homepageblock_mfVbpBMy td {
+                display: block !important;
+                width: 100% !important;
+            }
+        }
+
+        /* #endregion */
+
+        /*#region Chương trình học*/
+        .category[data-app='tindaotao'] .category-desc {
+            max-width: 100%
+        }
+
+        .category[data-app='tindaotao'] .item,
+        .category[data-app='tindaotao'] .item * {
+            color: #fff !important
+        }
+
+        .category[data-app='tindaotao'] .item-title:hover {
+            color: #D5B781 !important
+        }
+
+        .category[data-app='tindaotao'] .item {
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            z-index: 1
+        }
+
+        .category[data-app='tindaotao'] .item-img {
+            order: 2;
+            position: relative;
+            z-index: 1
+        }
+
+        .category[data-app='tindaotao'] .item-body {
+            order: 1;
+            position: relative;
+            z-index: 1;
+            padding-top: 30px;
+            padding-bottom: 20px
+        }
+
+        .category[data-app='tindaotao'] .imgc:before {
+            padding-bottom: 83.703%
+        }
+
+        .category[data-app='tindaotao'] .item-desc {
+            height: 133px;
+            text-align: left
+        }
+
+        .category[data-app='tindaotao'] .item:before {
+            content: "";
+            display: block;
+            position: absolute;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            pointer-events: none;
+            background: #64A243
+        }
+
+        .category[data-app='tindaotao'] .col-md-6:nth-of-type(2n) .item:before {
+            background: #6eaa4e
+        }
+
+        .category[data-app='tindaotao'] .col-md-6:nth-of-type(3n) .item:before {
+            background: #73a857
+        }
+
+        .category[data-app='tindaotao'] .col-md-6:nth-of-type(4n) .item:before {
+            background: #81aa6b
+        }
+
+        /* #endregion */
+
+        /*#region Tin giải đấu*/
+        .category[data-app='tinhoptac'] .item * {
+            color: #fff
+        }
+
+        /* #endregion */
+
+
+        /*#region Tại sao chọn*/
+        .linked-service-menu-wrap .category-desc {
+            max-width: 100%
+        }
+
+        .linked-service-menu-wrap .imgc0:before {
+            padding-bottom: 33.33%
+        }
+
+        .linked-service-menu-wrap .item-title,
+        .linked-service-menu-wrap .item-desc {
+            height: auto !important
+        }
+
+        .linked-service-menu-wrap .item-title {
+            font-weight: bold
+        }
+
+        .linked-service-menu-wrap .item {
+            background: rgba(255, 255, 255, 0.05)
+        }
+
+        .linked-service-menu-wrap .item-img {
+            padding-top: 15px
+        }
+
+        .linked-service-menu-wrap .item-body {
+            padding-bottom: 15px
+        }
+
+        /* #endregion */
+
+        /*#region Sắc màu la trobe*/
+        #homepageblock_EcJPKleA em {
+            font-style: normal
+        }
+
+        #homepageblock_EcJPKleA .homepage-text {
+            width: 100%
+        }
+
+        #homepageblock_EcJPKleA .item {
+            margin-bottom: 0;
+            height: auto
+        }
+
+        #homepageblock_EcJPKleA .item-title {
+            font-weight: normal;
+            height: 63px;
+            font-size: 14px;
+            -webkit-line-clamp: 3;
+            margin-bottom: 0
+        }
+
+        #homepageblock_EcJPKleA .col-md-6:nth-child(2)~.col-md-6 {
+            display: none
+        }
+
+        #homepageblock_EcJPKleA .category {
+            margin-bottom: 30px
+        }
+
+        #homepageblock_EcJPKleA .category .category-title {
+            font-size: 16px
+        }
+
+        @media(max-width:767px) {
+            #homepageblock_EcJPKleA .item-title {
+                display: block;
+                height: auto;
+                margin-bottom: 15px
+            }
+
+            #homepageblock_EcJPKleA .category-body {
+                padding-bottom: 0
+            }
+
+            #homepageblock_EcJPKleA {
+                padding-bottom: 0 !important
+            }
+
+            #homepageblock_YSbIHYgN {
+                padding-top: 0 !important
+            }
+        }
+
+        /* #endregion */
+
+        /*#region Thư viện video, thư viện ảnh*/
+        #homepageblock_FyYBkKFD .category-desc {
+            margin-top: 0
+        }
+
+        #homepageblock_FyYBkKFD .item-title {
+            font-weight: bold
+        }
+
+        #homepageblock_gSAwTOtQ .imgc:before {
+            padding-bottom: 56.25%
+        }
+
+        #homepageblock_gSAwTOtQ .category-desc {
+            margin-top: 0
+        }
+
+        #homepageblock_gSAwTOtQ .item-title {
+            font-weight: bold
+        }
+
+        /* #endregion */
+
+        /*#region Gương mặt tiêu biểu*/
+        #homepageblock_abJPvMHu .category {
+            margin-bottom: 0
+        }
+
+        .category[data-app='tinsinhvien'] .item,
+        .category[data-app='tinsinhvien'] .item * {
+            color: #fff !important
+        }
+
+        .category[data-app='tinsinhvien'] .item-title {
+            height: auto;
+            display: inline-block
+        }
+
+        .category[data-app='tinsinhvien'] .item-title:hover {
+            color: #D5B781 !important
+        }
+
+        .category[data-app='tinsinhvien'] .imgc:before {
+            padding-bottom: 100%
+        }
+
+        /* #endregion */
+
+        /* #region Khách hàng, đối tác*/
+        .module- .item[data-app='partner'] {
+            height: auto;
+            margin-bottom: 0
+        }
+
+        .module- .item[data-app='partner'] .item-body {
+            display: none;
+        }
+
+        .module- .item[data-app='partner'] .imgc:before,
+        .module- .item[data-app='partner'] .imgc0:before {
+            padding-bottom: 50%
+        }
+
+        .module- .item[data-app='partner']:hover .imgc0 {
+            transition: all 0.3s ease 0s;
+            border-color: rgba(48, 93, 69, 0.2)
+        }
+
+        .module- .item[data-app='partner']:hover .imgc0 img {
+            transition: all 0.3s ease 0s;
+            transform: scale(0.96)
+        }
+
+        /* #endregion*/
+
+        /*#region Trang giới thiệu*/
+        .module-aboutus .category[data-blocklayouts*='_13_'] .item {
+            height: calc(100% - 3px)
+        }
+
+        .module-aboutus .slick-track {
+            margin-bottom: 3px
+        }
+
+        /*#endregion*/
+
+        /*#region Ẩn bg ở một số mục trên mobile để điểm tải trang tốt hơn*/
+        @media(max-width:767px) {
+            #homepageblock_mfVbpBMy {
+                background-image: none !important;
+                background-color: #fff
+            }
+
+            #homepageblock_ioxDHRFL {
+                background-image: none !important;
+                background-color: #F8F8F8
+            }
+        }
+
+        /*#endregion*/
+
+
+        .category[data-blocklayouts*='_1_'][data-app='product'] .item-links,
+        .category[data-blocklayouts*='_13_'][data-app='product'] .item-links,
+        .category[data-blocklayouts*='_8_'] .left-col[data-app='product'] .item-links {
+            bottom: 10px
+        }
+    </style>
+    <!-- #endregion -->
+</head>
+
+<body class="ff- pagemaxwidth-xl pagemaxcolumn-5 slidershape-default doc-outline-0 module- act-index seourl-">
+    <!-- #region Các mã có thể nhúng vào đầu thẻ body như Google Analytics, Facebook,... -->
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>
+        window.fbAsyncInit = function () {
+            FB.init({
+                xfbml: true,
+                version: 'v10.0'
+            });
+        };
+
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+
+    <!-- Your Chat Plugin code -->
+    <div class="fb-customerchat" attribution="setup_tool" page_id="377472685787251">
+    </div>
+    <!-- #endregion -->
+    <h1> Câu lạc bộ Olympia Chess</h1>
+    <div class="header">
+        <div class="header-full header-core" data-block-type="header_basic_logo_left">
+            <div class="menu-top-wrap">
+                <div class="container ">
+                    <div class="menu-top ">
+                        <div class="menu-top-left"></div>
+                        <div class="menu-top-right">
+
+                            <span class="break-menu-top" data-index="1"></span>
+                            <a href="https://www.facebook.com/olympiachess.vn/" title="Facebook" target="_blank"
+                                rel="nofollow" class="menu menu-social"><i class="fa fa-facebook"></i></a>
+                            <span class="break-menu-top" data-index="2"></span>
+                            <div class="search-panel-in-header-product spihp" data-block-size="Icon">
+                                <div class="auto-suggest-wrap">
+                                    <div class="form-inline">
+                                        <div class="input-wrap">
+                                            <input type="text" data-name="Keyword" value=""
+                                                onkeyup="CheckPostSearchOnHeader(event)" class="form-control"
+                                                placeholder="Bạn tìm gì...">
+                                            <a href="javascript:void(0);" title="Tìm kiếm"
+                                                onclick="PostSearchOnHeader(event)"
+                                                class="btn btn-search main-color-1"><i class="fa fa-search"></i></a>
+                                        </div>
+                                        <select data-name="Type" class="form-control">
+                                            <option value="article">Tìm bài viết, video, hình ảnh</option>
+                                            <option value="product">Tìm sản phẩm</option>
+                                        </select>
+                                    </div>
+                                    <div class="auto-suggest"></div>
+                                </div>
+                                <a href="javascript:ClosePopupSearch()" title="Close" rel="nofollow"
+                                    class="btn-close-search"><i class="fa fa-times"></i></a>
+                            </div>
+
+                            <a href="javascript:OpenPopupSearch()" title="Search" rel="nofollow"
+                                class="btn-open-search font-size--1" data-block-size="Icon">
+                                <span>Tìm kiếm...</span>
+                                <i class="fa fa-search"></i>
+                            </a>
+                            <span class="break-menu-top" data-index="3"></span>
+                            <div class="menu menu-login">
+                                <div class="menu-header">
+                                    <a href="javascript:OpenPopupLogin()" title="Đăng nhập hoặc đăng ký tài khoản"
+                                        class="menu-title menu-title-text d-none d-md-inline-block" rel="nofollow">Tài
+                                        khoản <i class="fa fa-caret-down"></i>
+                                        <span class="menu-desc font-size--2">Thành viên</span>
+                                    </a>
+                                    <a href="javascript:OpenPopupLogin()" title="Đăng nhập hoặc đăng ký tài khoản"
+                                        class="menu-title menu-title-icon d-inline-block d-md-none" rel="nofollow"><i
+                                            class="fa fa-user"></i>
+                                        <span class="menu-desc font-size--2">Tài khoản</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="menu menu-shopping-cart shopping-cart-list-header">
+                                <div class="menu-header">
+                                    <a href="javascript:void(0);" onclick="ToggleMenu(" #ToggleMenuShoppingCart",
+                                        event)" title="Giỏ hàng" class="menu-title toggle-menu-btn "><i
+                                            class="fa fa-shopping-cart"><span
+                                                class="shopping-cart-count bg-main-color-2"
+                                                data-app="product"></span></i>
+                                        <span class="menu-desc font-size--2">Giỏ hàng</span>
+                                    </a>
+                                </div>
+                                <div class="toggle-menu-wrap" id="ToggleMenuShoppingCart">
+                                    <div class="toggle-menu">
+                                        <div class="shopping-cart-list" data-app="product">
+                                        </div>
+                                        <div class="shopping-cart-total-product-fee-wrap pt-3 pl-3 pr-3 fwb">
+                                            Tổng tiền hàng: <span class="shopping-cart-total-product-fee main-color-2"
+                                                data-app="product">0</span><span class="main-color-2">đ</span>
+                                        </div>
+                                        <div class="text-center pt-3 pb-3 pl-3 pr-3">
+                                            <a href="https://olympiachess.vn/san-pham/gio-hang"
+                                                class="btn btn-primary">Tới trang thanh toán</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="break-menu-top" data-index="4"></span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="logo-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col logo logo-2"></div>
+                        <div class="col-xl-3 logo logo-1"><a title="logo"><img src="logo.png" class="lazyload">
+                                <img src="logo.png" class="lazyload"></a></div>
+                        <div class="col logo-beside">
+                            <div class="logo-beside-texts"></div>
+                            <div class="logo-beside-btns main-color-1"><a href="tel:098 169 0000" title="098 169 0000"
+                                    rel="nofollow" class="logo-beside-btn"><i class="fa fa-phone"></i> <span>098 169
+                                        0000</span></a>
+                                <a href="#gui-yeu-cau" title="Gửi yêu cầu" rel="nofollow" class="logo-beside-btn"><i
+                                        class="fa fa-edit"></i> <span>Gửi yêu cầu</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-main-wrap bg-main-color-1">
+                <div class="container">
+                    <div class="bg-main-color-1">
+                        <ul class="menu-main bg-inherit ">
+
+                            <li class="li-top btn-close-res-menu">
+                                <a href="javascript:ToggleResMenu()" rel="nofollow"><i class="fa fa-times"></i>Menu</a>
+                            </li>
+                            <li class="li-top">
+                                <a href="file:///G:/lap%20trinh%20html/web%20test/new/olympiachess.vn/index.html" title="Trang chủ" fa fa-home"></i><span><i
+                                            class="fa fa-home"></i></span></a>
+
+
+                            </li>
+                            <li class="li-top">
+                                <a href="https://olympiachess.vn/gioi-thieu" title="Giới thiệu CLB"><span>Giới thiệu
+                                        CLB</span></a>
+
+
+                            </li>
+                            <li class="li-top">
+                                <a href="file:///G:/lap%20trinh%20html/web%20test/new/olympiachess.vn/caccosovalichhoc.html" title="Các cơ sở và lịch học"><span>Các cơ
+                                        sở và lịch học</span></a>
+
+
+                            </li>
+                            <li class="li-top has-child">
+                                <a href="https://olympiachess.vn/tin-hop-tac" title="Tin giải đấu"><span>Tin giải
+                                        đấu</span></a>
+                                <a href="javascript:ToggleResMenuSub(10927)" rel="nofollow"
+                                    class="btn-open-res-menu-sub"><i class="fa fa-angle-right"></i></a>
+                                <ul class="menu-main-sub bg-inherit" data-menu="10927">
+                                    <li class="btn-close-res-menu-sub"><a href="javascript:ToggleResMenuSub(10927)"
+                                            rel="nofollow"><i class="fa fa-times"></i> Tin giải đấu</a></li>
+                                    <li>
+                                        <a href="tin-giai-cau-lac-bo" title="Tin giải câu lạc bộ"><span>Tin giải câu lạc
+                                                bộ</span></a>
+
+
+                                    </li>
+                                    <li>
+                                        <a href="tin-lang-co" title="Tin làng cờ"><span>Tin làng cờ</span></a>
+
+
+                                    </li>
+                                    <li>
+                                        <a href="hinh-anh-hoat-dong-cua-clb"
+                                            title="Hình ảnh hoạt động của câu lạc bộ"><span>Hình ảnh hoạt động của câu
+                                                lạc bộ</span></a>
+
+
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="li-top">
+                                <a href="https://olympiachess.vn/tai-lieu" title="Tài liệu"><span>Tài liệu</span></a>
+
+
+                            </li>
+                            <li class="li-top">
+                                <a href="https://olympiachess.vn/tin-tuc" title="Lợi ích của cờ vua"><span>Lợi ích của
+                                        cờ vua</span></a>
+
+
+                            </li>
+                            <li class="li-top has-child">
+                                <a href="https://olympiachess.vn/san-pham" title="Shop Chess"><span>Shop
+                                        Chess</span></a>
+                                <a href="javascript:ToggleResMenuSub(10930)" rel="nofollow"
+                                    class="btn-open-res-menu-sub"><i class="fa fa-angle-right"></i></a>
+                                <ul class="menu-main-sub bg-inherit" data-menu="10930">
+                                    <li class="btn-close-res-menu-sub"><a href="javascript:ToggleResMenuSub(10930)"
+                                            rel="nofollow"><i class="fa fa-times"></i> Shop Chess</a></li>
+                                    <li>
+                                        <a href="dong-ho-thi-dau" title="Đồng hồ thi đấu"><span>Đồng hồ thi
+                                                đấu</span></a>
+
+
+                                    </li>
+                                    <li>
+                                        <a href="co-vua" title="Cờ vua"><span>Cờ vua</span></a>
+
+
+                                    </li>
+                                    <li>
+                                        <a href="giao-trinh" title="Giáo trình"><span>Giáo trình</span></a>
+
+
+                                    </li>
+
+                                </ul>
+                            </li>
+                            <li class="li-top">
+                                <a href="https://olympiachess.vn/lien-he" title="Liên hệ"><span>Liên hệ</span></a>
+
+                            </li>
+                            <li class="li-top">
+                                <a href="https://olympiachess.vn/tai-lieu" title="Khóa học"><span>Khóa học</span></a>
+                        </ul>
+                        <a href="javascript:ToggleResMenu()" title="Menu" rel="nofollow"
+                            class="btn-open-res-menu"><span></span><span></span><span></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
